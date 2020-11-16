@@ -12,9 +12,9 @@ class ConfigManager
     /**
      * @var Filesystem
      */
-    private Filesystem $filesystem;
-    private array $json;
-    private string $path;
+    private $filesystem;
+    private $json;
+    private $path;
 
     public function __construct(Filesystem $filesystem, string $path = './linked.json')
     {

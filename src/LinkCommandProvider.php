@@ -13,7 +13,7 @@ class LinkCommandProvider implements CommandProvider
 {
 
 
-    private LinkManager $linkManager;
+    private $linkManager;
 
 
     public function __construct($linkManager)

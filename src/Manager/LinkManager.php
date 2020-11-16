@@ -10,12 +10,12 @@ use henzeb\ComposerLink\Package\PackageLink;
 
 class LinkManager
 {
-    private static ?self $instance = null;
-    private Filesystem $filesystem;
+    private static $instance = null;
+    private $filesystem;
 
-    private ComposerManager $composerManager;
+    private $composerManager;
 
-    private ConfigManager $configManager;
+    private $configManager;
 
     public function __construct(
         Filesystem $filesystem,

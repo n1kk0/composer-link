@@ -22,7 +22,7 @@ class LinkPlugin implements PluginInterface, Capable, EventSubscriberInterface
     /**
      * @var LinkManager
      */
-    private static LinkManager $linkManager;
+    private static $linkManager;
 
     public function activate(Composer $composer, IOInterface $io)
     {
