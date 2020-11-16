@@ -1,11 +1,11 @@
 <?php
 
-namespace henzeb\ComposerLink\Command;
+namespace n1kk0\ComposerLink\Command;
 
 use Composer\Command\BaseCommand;
-use henzeb\ComposerLink\Command\Interpreter\Interpreter;
-use henzeb\ComposerLink\Filesystem\Filesystem;
-use henzeb\ComposerLink\Manager\LinkManager;
+use n1kk0\ComposerLink\Command\Interpreter\Interpreter;
+use n1kk0\ComposerLink\Filesystem\Filesystem;
+use n1kk0\ComposerLink\Manager\LinkManager;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

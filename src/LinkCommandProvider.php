@@ -1,13 +1,13 @@
 <?php
 
 
-namespace henzeb\ComposerLink;
+namespace n1kk0\ComposerLink;
 
 use Composer\Command\BaseCommand;
 use Composer\Plugin\Capability\CommandProvider;
-use henzeb\ComposerLink\Command\LinkCommand;
-use henzeb\ComposerLink\Command\UnlinkCommand;
-use henzeb\ComposerLink\Manager\LinkManager;
+use n1kk0\ComposerLink\Command\LinkCommand;
+use n1kk0\ComposerLink\Command\UnlinkCommand;
+use n1kk0\ComposerLink\Manager\LinkManager;
 
 class LinkCommandProvider implements CommandProvider
 {

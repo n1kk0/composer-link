@@ -1,9 +1,9 @@
 <?php
 
-namespace henzeb\ComposerLink\Command;
+namespace n1kk0\ComposerLink\Command;
 
-use henzeb\ComposerLink\Command\Strategy\UnlinkFromConfigStrategy;
-use henzeb\ComposerLink\Command\Strategy\UnlinkStrategy;
+use n1kk0\ComposerLink\Command\Strategy\UnlinkFromConfigStrategy;
+use n1kk0\ComposerLink\Command\Strategy\UnlinkStrategy;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

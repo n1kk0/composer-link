@@ -1,8 +1,8 @@
 <?php
 
-namespace henzeb\ComposerLink\Command\Strategy;
+namespace n1kk0\ComposerLink\Command\Strategy;
 
-use henzeb\ComposerLink\Manager\LinkManager;
+use n1kk0\ComposerLink\Manager\LinkManager;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

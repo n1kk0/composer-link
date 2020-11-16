@@ -1,12 +1,12 @@
 <?php
 
 
-namespace henzeb\ComposerLink\Command\Strategy;
+namespace n1kk0\ComposerLink\Command\Strategy;
 
 
 use Exception;
-use henzeb\ComposerLink\Filesystem\Filesystem;
-use henzeb\ComposerLink\Manager\LinkManager;
+use n1kk0\ComposerLink\Filesystem\Filesystem;
+use n1kk0\ComposerLink\Manager\LinkManager;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 

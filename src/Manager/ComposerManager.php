@@ -1,7 +1,7 @@
 <?php
 
 
-namespace henzeb\ComposerLink\Manager;
+namespace n1kk0\ComposerLink\Manager;
 
 
 use Composer\Composer;

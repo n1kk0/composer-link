@@ -1,6 +1,6 @@
 <?php
 
-namespace henzeb\ComposerLink\Package;
+namespace n1kk0\ComposerLink\Package;
 
 class PackageLink
 {

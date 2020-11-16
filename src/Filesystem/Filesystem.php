@@ -1,5 +1,5 @@
 <?php
-namespace henzeb\ComposerLink\Filesystem;
+namespace n1kk0\ComposerLink\Filesystem;
 
 use Symfony\Component\Filesystem\Exception\IOException;
 use Symfony\Component\Filesystem\Filesystem as SymfonyFilesystem;

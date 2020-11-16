@@ -1,7 +1,7 @@
 <?php
 
 
-namespace henzeb\ComposerLink;
+namespace n1kk0\ComposerLink;
 
 use Composer\Composer;
 use Composer\EventDispatcher\EventSubscriberInterface;
@@ -11,10 +11,10 @@ use Composer\Plugin\Capable;
 use Composer\Plugin\PluginInterface;
 use Composer\Script\ScriptEvents;
 use Exception;
-use henzeb\ComposerLink\Filesystem\Filesystem;
-use henzeb\ComposerLink\Manager\ComposerManager;
-use henzeb\ComposerLink\Manager\ConfigManager;
-use henzeb\ComposerLink\Manager\LinkManager;
+use n1kk0\ComposerLink\Filesystem\Filesystem;
+use n1kk0\ComposerLink\Manager\ComposerManager;
+use n1kk0\ComposerLink\Manager\ConfigManager;
+use n1kk0\ComposerLink\Manager\LinkManager;
 
 class LinkPlugin implements PluginInterface, Capable, EventSubscriberInterface
 {
@@ -75,7 +75,7 @@ class LinkPlugin implements PluginInterface, Capable, EventSubscriberInterface
      */
     public static function isNoTemporaryClass(): bool
     {
-        return get_class() !== 'henzeb\\ComposerLink\\LinkPlugin';
+        return get_class() !== 'n1kk0\\ComposerLink\\LinkPlugin';
     }
 
     public function deactivate(Composer $composer, IOInterface $io) {

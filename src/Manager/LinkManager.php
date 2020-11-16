@@ -1,12 +1,12 @@
 <?php
 
 
-namespace henzeb\ComposerLink\Manager;
+namespace n1kk0\ComposerLink\Manager;
 
 
 use Exception;
-use henzeb\ComposerLink\Filesystem\Filesystem;
-use henzeb\ComposerLink\Package\PackageLink;
+use n1kk0\ComposerLink\Filesystem\Filesystem;
+use n1kk0\ComposerLink\Package\PackageLink;
 
 class LinkManager
 {

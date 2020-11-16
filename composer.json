@@ -1,5 +1,5 @@
 {
-  "name": "henzeb/composer-link",
+  "name": "n1kk0/composer-link",
   "type": "composer-plugin",
   "license": "MIT",
   "require": {
@@ -9,11 +9,11 @@
     "composer/composer": "^1.0|^2.0"
   },
   "extra": {
-    "class": "henzeb\\ComposerLink\\LinkPlugin"
+    "class": "n1kk0\\ComposerLink\\LinkPlugin"
   },
   "autoload": {
     "psr-4": {
-      "henzeb\\ComposerLink\\": "src"
+      "n1kk0\\ComposerLink\\": "src"
     }
   }
 }

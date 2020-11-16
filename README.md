@@ -3,11 +3,11 @@ Simplifies development of libraries by linking them into your project. loosely b
 ## Installation
 If you want to install this globally:
 
-    composer global require henzeb/composer-link
+    composer global require n1kk0/composer-link
 
 If you want to install this per project:
 
-    composer require henzeb/composer-link
+    composer require n1kk0/composer-link
 
 ## Usage
 Every link made will be transformed to a relative path. This is useful in situations where you want to test inside a docker container or virtual machine.

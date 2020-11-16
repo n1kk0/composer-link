@@ -1,8 +1,8 @@
 <?php
 
-namespace henzeb\ComposerLink\Command\Interpreter;
+namespace n1kk0\ComposerLink\Command\Interpreter;
 
-use henzeb\ComposerLink\Command\Strategy\CommandStrategy;
+use n1kk0\ComposerLink\Command\Strategy\CommandStrategy;
 use Symfony\Component\Console\Input\InputInterface;
 
 class Interpreter

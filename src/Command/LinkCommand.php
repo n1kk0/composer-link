@@ -1,10 +1,10 @@
 <?php
 
-namespace henzeb\ComposerLink\Command;
+namespace n1kk0\ComposerLink\Command;
 
-use henzeb\ComposerLink\Command\Strategy\CommandStrategy;
-use henzeb\ComposerLink\Command\Strategy\LinkFromConfigStrategy;
-use henzeb\ComposerLink\Command\Strategy\LinkStrategy;
+use n1kk0\ComposerLink\Command\Strategy\CommandStrategy;
+use n1kk0\ComposerLink\Command\Strategy\LinkFromConfigStrategy;
+use n1kk0\ComposerLink\Command\Strategy\LinkStrategy;
 use Symfony\Component\Console\Input\InputArgument;
 
 class LinkCommand extends LinkBaseCommand
