@@ -15,7 +15,7 @@ abstract class LinkBaseCommand extends BaseCommand
     /**
      * @var LinkManager
      */
-    private LinkManager $linkManager;
+    private $linkManager;
 
 
     public function __construct(LinkManager $linkManager)
